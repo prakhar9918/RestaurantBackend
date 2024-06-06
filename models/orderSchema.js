@@ -8,7 +8,7 @@ const orderSchema= mongoose.Schema({
         ref:Food
     }],
     payment:{
-        
+          
     },
     buyer:{
         type:mongoose.Schema.Types.ObjectId,
